@@ -1,0 +1,37 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Archivos de autenticación y credenciales
+data/credentials.json
+data/token.json
+data/config.json
+
+# Archivos de API y conexiones
+*.key
+*.pem
+secrets.json
+
+# Tests
+test_*.py
+tests/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Otros sensibles
+.env
+config.local.json
