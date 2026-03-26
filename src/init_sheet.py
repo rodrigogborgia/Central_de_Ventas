@@ -1,12 +1,12 @@
 import json
 import os
-from src.auth import get_sheets_service
+from .auth import get_sheets_service
 
 def init_sheet():
     """
     Inicializa el Google Sheet con las columnas necesarias.
     """
-    config_path = os.path.join(os.path.dirname(__file__), 'data', 'config.json')
+    config_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'config.json')
     with open(config_path, 'r') as f:
         config = json.load(f)
 
